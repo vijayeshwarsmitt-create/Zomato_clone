@@ -1,0 +1,8 @@
+<h1>{{ restaurant.name }}</h1>
+
+{% for item in menu %}
+    <div>
+        <h3>{{ item.item_name }}</h3>
+        <p>₹ {{ item.price }}</p>
+    </div>
+{% endfor %}
